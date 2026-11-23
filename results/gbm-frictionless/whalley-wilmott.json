@@ -1,0 +1,30 @@
+{
+  "policy": "whalley-wilmott",
+  "task": "gbm-frictionless",
+  "n_test": 20000,
+  "metrics": {
+    "cvar": 3.762972263058764,
+    "var": 3.464886313862914,
+    "mean": -2.7564685222710636,
+    "std": 0.43155049698928494,
+    "worst": -5.860729446870577,
+    "cost": 0.0
+  },
+  "hedgebench": "0.1.0",
+  "python": "3.11.5",
+  "date": "2026-11-22",
+  "vs": {
+    "baseline": "black-scholes",
+    "cvar_diff": 0.0,
+    "cvar_diff_ci": [
+      0.0,
+      0.0
+    ],
+    "mean_diff": 0.0,
+    "mean_diff_ci": [
+      0.0,
+      0.0
+    ],
+    "p_better": 0.0
+  }
+}

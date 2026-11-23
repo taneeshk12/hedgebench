@@ -1,0 +1,30 @@
+{
+  "policy": "black-scholes",
+  "task": "btc-options-real",
+  "n_test": 23,
+  "metrics": {
+    "cvar": 2.1146403393597093,
+    "var": 1.7651685208539556,
+    "mean": 0.6592255062226191,
+    "std": 1.6498712000038434,
+    "worst": -2.1146403393597093,
+    "cost": 0.2665948109044816
+  },
+  "hedgebench": "0.1.0",
+  "python": "3.11.5",
+  "date": "2026-11-22",
+  "vs": {
+    "baseline": "black-scholes",
+    "cvar_diff": 0.0,
+    "cvar_diff_ci": [
+      0.0,
+      0.0
+    ],
+    "mean_diff": 0.0,
+    "mean_diff_ci": [
+      0.0,
+      0.0
+    ],
+    "p_better": 0.0
+  }
+}

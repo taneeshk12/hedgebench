@@ -1,0 +1,30 @@
+{
+  "policy": "black-scholes",
+  "task": "bates-cost",
+  "n_test": 20000,
+  "metrics": {
+    "cvar": 6.089716798547425,
+    "var": 4.914192883337809,
+    "mean": -3.503225742054867,
+    "std": 0.9390934423603444,
+    "worst": -19.46617218716952,
+    "cost": 0.5586227246177886
+  },
+  "hedgebench": "0.1.0",
+  "python": "3.11.5",
+  "date": "2026-11-22",
+  "vs": {
+    "baseline": "black-scholes",
+    "cvar_diff": 0.0,
+    "cvar_diff_ci": [
+      0.0,
+      0.0
+    ],
+    "mean_diff": 0.0,
+    "mean_diff_ci": [
+      0.0,
+      0.0
+    ],
+    "p_better": 0.0
+  }
+}

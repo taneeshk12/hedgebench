@@ -1,0 +1,30 @@
+{
+  "policy": "black-scholes",
+  "task": "heston-cost",
+  "n_test": 20000,
+  "metrics": {
+    "cvar": 4.973262338018472,
+    "var": 4.572462513537511,
+    "mean": -3.3737777235998414,
+    "std": 0.678674453556672,
+    "worst": -7.793551818485251,
+    "cost": 0.5574306610678176
+  },
+  "hedgebench": "0.1.0",
+  "python": "3.11.5",
+  "date": "2026-11-22",
+  "vs": {
+    "baseline": "black-scholes",
+    "cvar_diff": 0.0,
+    "cvar_diff_ci": [
+      0.0,
+      0.0
+    ],
+    "mean_diff": 0.0,
+    "mean_diff_ci": [
+      0.0,
+      0.0
+    ],
+    "p_better": 0.0
+  }
+}

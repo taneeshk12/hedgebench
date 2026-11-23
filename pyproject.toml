@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hedgebench"
+version = "0.1.0"
+description = "A reproducible benchmark for option hedging strategies, from Black-Scholes to deep hedging, on simulated and real market data"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.10", "pandas>=2.0"]
+keywords = ["quantitative finance", "options", "hedging", "deep hedging", "benchmark", "reinforcement learning"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Office/Business :: Financial :: Investment",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.optional-dependencies]
+deep = ["torch>=2.0"]
+real = ["yfinance>=0.2.50"]
+dev = ["pytest>=7"]
+
+[project.scripts]
+hedgebench = "hedgebench.cli:main"
+
+[tool.setuptools]
+packages = ["hedgebench"]

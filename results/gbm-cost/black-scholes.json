@@ -1,0 +1,30 @@
+{
+  "policy": "black-scholes",
+  "task": "gbm-cost",
+  "n_test": 20000,
+  "metrics": {
+    "cvar": 4.491681773483261,
+    "var": 4.152656308378159,
+    "mean": -3.3030982030214595,
+    "std": 0.47945514873310674,
+    "worst": -6.598896859070443,
+    "cost": 0.5466296807503958
+  },
+  "hedgebench": "0.1.0",
+  "python": "3.11.5",
+  "date": "2026-11-22",
+  "vs": {
+    "baseline": "black-scholes",
+    "cvar_diff": 0.0,
+    "cvar_diff_ci": [
+      0.0,
+      0.0
+    ],
+    "mean_diff": 0.0,
+    "mean_diff_ci": [
+      0.0,
+      0.0
+    ],
+    "p_better": 0.0
+  }
+}

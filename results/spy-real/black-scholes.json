@@ -1,0 +1,30 @@
+{
+  "policy": "black-scholes",
+  "task": "spy-real",
+  "n_test": 497,
+  "metrics": {
+    "cvar": 5.75834458155838,
+    "var": 4.350985672873968,
+    "mean": -2.577229079854402,
+    "std": 1.0615420056883336,
+    "worst": -10.694622463414111,
+    "cost": 0.5306936410540462
+  },
+  "hedgebench": "0.1.0",
+  "python": "3.11.5",
+  "date": "2026-11-22",
+  "vs": {
+    "baseline": "black-scholes",
+    "cvar_diff": 0.0,
+    "cvar_diff_ci": [
+      0.0,
+      0.0
+    ],
+    "mean_diff": 0.0,
+    "mean_diff_ci": [
+      0.0,
+      0.0
+    ],
+    "p_better": 0.0
+  }
+}
